@@ -1,8 +1,9 @@
 const CACHE_NAME = "cv-cache-v1";
 const urlsToCache = [
     "/",
-    "/index.html"
-
+    "/index.html",
+    "/styles.css",
+    "/scripts.js"
 ];
 
 // تثبيت الخدمة وتخزين الملفات في الكاش
