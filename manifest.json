@@ -1,0 +1,16 @@
+{
+    "name": "Mohammed Abu Salha CV",
+    "short_name": "CV",
+    "description": "Mohammed Abu Salha's Resume as a Progressive Web App",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#1a202c",
+    "theme_color": "#63b3ed",
+    "icons": [
+        {
+            "src": "https://scontent.fjrs10-1.fna.fbcdn.net/v/t39.30808-1/279917631_4853016484827246_8935989421139154023_n.jpg?stp=c607.115.800.800a_dst-jpg_s200x200_tt6",
+            "sizes": "200x200",
+            "type": "image/jpeg"
+        }
+    ]
+}
