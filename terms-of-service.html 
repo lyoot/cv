@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شروط الخدمة - lyoot.com</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            direction: rtl;
+            text-align: right;
+            margin: 20px;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        .terms-box {
+            border: 1px solid #ccc;
+            padding: 15px;
+            max-height: 200px;
+            overflow-y: auto;
+            margin-bottom: 10px;
+        }
+        .btn {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            display: block;
+        }
+        .btn:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <h1>شروط الخدمة</h1>
+    <div class="terms-box">
+        <p>مرحبًا بك في lyoot.com. باستخدامك لهذا التطبيق، فإنك توافق على الامتثال لهذه الشروط.</p>
+        <h2>الاستخدام المسموح</h2>
+        <p>يجب استخدام التطبيق بطريقة قانونية وعدم انتهاك أي قوانين محلية أو دولية.</p>
+        <h2>حقوق الملكية الفكرية</h2>
+        <p>جميع المحتويات والمواد المقدمة من خلال التطبيق هي ملك لموقع lyoot.com ولا يجوز استخدامها دون إذن.</p>
+        <h2>التعديلات على الشروط</h2>
+        <p>قد يتم تحديث هذه الشروط من وقت لآخر، وسيتم إشعار المستخدمين بالتغييرات.</p>
+    </div>
+    
+    <input type="checkbox" id="agree" onchange="toggleButton()"> أوافق على شروط الخدمة
+    <br>
+    <button id="submitBtn" class="btn" disabled>متابعة</button>
+    
+    <script>
+        function toggleButton() {
+            document.getElementById('submitBtn').disabled = !document.getElementById('agree').checked;
+        }
+    </script>
+</body>
+</html>
+
